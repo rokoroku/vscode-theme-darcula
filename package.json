@@ -1,0 +1,22 @@
+{
+    "name": "vscode-theme-darcula",
+    "displayName": "Darucla Theme",
+    "description": "The theme for VS Code based on Darcula theme from Jetbrains IDEs",
+    "version": "1.0.0",
+    "publisher": "rokoroku",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darcula.tmTheme"
+            }
+        ]
+    }
+}
