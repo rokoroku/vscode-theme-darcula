@@ -43,7 +43,15 @@
 			<string>Operators</string>
 			<key>scope</key>
 			<string>keyword.operator,
-keyword.operator.relational.meta</string>
+keyword.operator.logical,
+keyword.operator.relational,
+keyword.operator.assignment,
+keyword.operator.comparison,
+meta.keyword.operator,
+meta.keyword.operator.logical,
+meta.keyword.operator.relational,
+meta.keyword.operator.assignment,
+meta.keyword.operator.comparison</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -153,7 +161,8 @@ keyword.type.expression.typeof,</string>
 			<key>name</key>
 			<string>Typescript Types</string>
 			<key>scope</key>
-			<string>meta.entity.type.ts</string>
+			<string>meta.entity.type.ts,
+meta.entity.name.type.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -166,7 +175,7 @@ keyword.type.expression.typeof,</string>
 			<key>scope</key>
 			<string>storage.type,
 storage.modifier,
-storage.expr.arrow</string>
+storage.arrow</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -179,7 +188,7 @@ storage.expr.arrow</string>
 			<key>scope</key>
 			<string>class.instance.constructor,
 meta.entity.class.method.expr.new,
-meta.entity.type.name.expr.new</string>
+meta.entity.name.expr.new.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -266,7 +275,7 @@ block.support.function.variable.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6A8759</string>
+				<string>#CC8242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -282,9 +291,12 @@ block.support.function.variable.property</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML String</string>
+			<string>HTML&#x2f;XML String</string>
 			<key>scope</key>
-			<string>string.quoted.single.html, string.quoted.double.html, string.html</string>
+			<string>string.quoted.single.html, string.quoted.double.html,
+string.html,
+string.quoted.single.xml, string.quoted.double.xml,
+string.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -331,8 +343,9 @@ object.objectliteral.property.variable</string>
 			<key>scope</key>
 			<string>cast.expr.ts,
 type-object,
-meta.entity.class.method.new.expr.cast,
-meta.entity.type.name.new.expr.cast</string>
+ts.meta.entity.class.method.new.expr.cast,
+ts.meta.entity.type.name.new.expr.cast,
+ts.meta.entity.type.name.var-single-variable.annotation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
