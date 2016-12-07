@@ -56,6 +56,7 @@ keyword.operator.relational.meta</string>
 			<key>scope</key>
 			<string>string,
 string.character.escape,
+string.template.quoted,
 string.type.declaration.annotation</string>
 			<key>settings</key>
 			<dict>
@@ -222,11 +223,13 @@ operator.rest.parameters</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Variable, Property</string>
 			<key>scope</key>
 			<string>variable.property,
 variable.constant,
-variable.other.property, variable.other.constant,</string>
+variable.other.property, variable.other.constant,
+block.support.variable.property,
+block.support.function.variable.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -235,7 +238,7 @@ variable.other.property, variable.other.constant,</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Module</string>
+			<string>Module Name</string>
 			<key>scope</key>
 			<string>quote.module</string>
 			<key>settings</key>
@@ -474,6 +477,42 @@ type-fn-type-parameters</string>
 				<string>#FFC66D</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML entity</string>
+			<key>scope</key>
+			<string>yaml.entity.name,
+yaml.string.entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC8242</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML string value</string>
+			<key>scope</key>
+			<string>yaml.string.out</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ignored (Exceptions)</string>
+			<key>scope</key>
+			<string>block.support.module,
+block.support.type.module,
+block.support.function.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>693ee9de-bc28-4caf-9ae7-3258b05f1a4f</string>
@@ -484,6 +523,6 @@ type-fn-type-parameters</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>comment</key>
-	<string>The theme inspired by IntelliJ&apos;s Darcula color scheme</string>
+	<string>A theme inspired by IntelliJ&apos;s Darcula color scheme</string>
 </dict>
 </plist>
