@@ -42,16 +42,13 @@
 			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
-			<string>keyword.operator,
-keyword.operator.logical,
-keyword.operator.relational,
-keyword.operator.assignment,
-keyword.operator.comparison,
-meta.keyword.operator,
+			<string>meta.keyword.operator,
 meta.keyword.operator.logical,
 meta.keyword.operator.relational,
 meta.keyword.operator.assignment,
-meta.keyword.operator.comparison</string>
+meta.keyword.operator.comparison,
+meta.keyword.operator.ternary,
+meta.keyword.operator.arithmetic</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -65,7 +62,10 @@ meta.keyword.operator.comparison</string>
 			<string>string,
 string.character.escape,
 string.template.quoted,
-string.type.declaration.annotation</string>
+string.template.quoted.punctuation, string.template.quoted.punctuation.single,
+string.template.quoted.punctuation.double,
+string.type.declaration.annotation,
+string.template.quoted.punctuation.tag,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -188,7 +188,8 @@ storage.arrow</string>
 			<key>scope</key>
 			<string>class.instance.constructor,
 meta.entity.class.method.expr.new,
-meta.entity.name.expr.new.function</string>
+meta.entity.name.expr.new.function,
+meta.entity.name.expr.new.var</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -271,11 +272,12 @@ block.support.function.variable.property</string>
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, entity.name.tag</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, 
+entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CC8242</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,7 +288,7 @@ block.support.function.variable.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9E7BB0</string>
+				<string>#CCCCCC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -520,6 +522,17 @@ yaml.string.entity.name</string>
 			<string>block.support.module,
 block.support.type.module,
 block.support.function.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX Tag Section</string>
+			<key>scope</key>
+			<string>punctuation.tag.embedded.expression.section</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
