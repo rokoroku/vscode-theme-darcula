@@ -159,10 +159,12 @@ keyword.type.expression.typeof,</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Typescript Types</string>
+			<string>Types</string>
 			<key>scope</key>
-			<string>meta.entity.type.ts,
-meta.entity.name.type.ts</string>
+			<string>meta.entity.type,
+meta.entity.name.type,
+meta.entity.name.new.type.parameters,
+meta.entity.name.new.expr.type.parameters</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -187,9 +189,10 @@ storage.arrow</string>
 			<string>Class constructor</string>
 			<key>scope</key>
 			<string>class.instance.constructor,
-meta.entity.class.method.expr.new,
-meta.entity.name.expr.new.function,
-meta.entity.name.expr.new.var</string>
+meta.entity.new.class.method.expr,
+meta.entity.new.name.expr.function,
+meta.entity.new.name.expr.var,
+meta.entity.new.name.expr.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -298,7 +301,7 @@ entity.name.tag</string>
 			<string>string.quoted.single.html, string.quoted.double.html,
 string.html,
 string.quoted.single.xml, string.quoted.double.xml,
-string.xml</string>
+string.xml,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -343,7 +346,7 @@ object.objectliteral.property.variable</string>
 			<key>name</key>
 			<string>TypeScript Type Casting</string>
 			<key>scope</key>
-			<string>cast.expr.ts,
+			<string>ts.cast.expr,
 type-object,
 ts.meta.entity.class.method.new.expr.cast,
 ts.meta.entity.type.name.new.expr.cast,
@@ -358,8 +361,8 @@ ts.meta.entity.type.name.var-single-variable.annotation</string>
 			<key>name</key>
 			<string>TypeScript Type Declaration</string>
 			<key>scope</key>
-			<string>meta.ts.type.support,
-meta.ts.type.entity.name,
+			<string>ts.meta.type.support,
+ts.meta.type.entity.name,
 type-declaration,
 enum-declaration</string>
 			<key>settings</key>
@@ -530,9 +533,75 @@ block.support.function.variable</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSX Tag Section</string>
+			<string>Regex Storage Character</string>
 			<key>scope</key>
-			<string>punctuation.tag.embedded.expression.section</string>
+			<string>expr.regex.begin.punctuation,
+expr.regex.end.punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC8242</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Group&#x2f;Set</string>
+			<key>scope</key>
+			<string>expr.regex.capture.punctuation,
+expr.regex.group.punctuation,
+expr.regex.set.punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC8242</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Operators</string>
+			<key>scope</key>
+			<string>expr.regex.and.operator,
+expr.regex.or.operator,
+expr.regex.not.operator,</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag string</string>
+			<key>scope</key>
+			<string>string.template.tag,
+string.template.punctuation.tag,
+string.quoted.punctuation.tag,
+string.quoted.embedded.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6A8759</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag function parenthesis</string>
+			<key>scope</key>
+			<string>tag.punctuation.begin.arrow.parameters.embedded,
+tag.punctuation.end.arrow.parameters.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Object-literal key class</string>
+			<key>scope</key>
+			<string>object-literal.object.member.key.field.other,
+object-literal.object.member.key.accessor,
+object-literal.object.member.key.array.brace.square</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
