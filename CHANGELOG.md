@@ -1,3 +1,6 @@
+## v1.0.7
+- Improve CSS/SCSS colorization
+
 ## v1.0.6
 - Improve JSX/TSX colorization 
 - Improve regex class colorization

@@ -139,7 +139,7 @@ keyword.operator.static,
 keyword.operator.this,
 keyword.expression.typeof,
 keyword.expression.instanceof,
-keyword.type.expression.typeof,</string>
+keyword.type.expression.typeof</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -305,18 +305,7 @@ string.xml,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6A8759</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS ID</string>
-			<key>scope</key>
-			<string>meta.selector.css, entity.other.attribute-name.id</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9E7BB0</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -422,7 +411,8 @@ type-fn-type-parameters</string>
 			<key>name</key>
 			<string>Object Key Seperator</string>
 			<key>scope</key>
-			<string>objectliteral.key.separator</string>
+			<string>objectliteral.key.separator,
+scss.token.punctuation.separator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -606,6 +596,101 @@ object-literal.object.member.key.array.brace.square</string>
 			<dict>
 				<key>foreground</key>
 				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property-value</string>
+			<key>scope</key>
+			<string>property-list.property-value,
+property-list.constant,
+scss.keyword.other.unit,
+css.keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A5C261</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property variable</string>
+			<key>scope</key>
+			<string>property-list.variable,
+scss.set.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7A9EC2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property entity</string>
+			<key>scope</key>
+			<string>css.entity.attribute-name,
+scss.entity.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC66D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property-value number</string>
+			<key>scope</key>
+			<string>property-list.property-value.rgb-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7A9EC2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property-value function</string>
+			<key>scope</key>
+			<string>property-list.property-value.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC66D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Tag</string>
+			<key>scope</key>
+			<string>css.entity.name.tag,
+scss.entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC8242</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS ID, Selector</string>
+			<key>scope</key>
+			<string>meta.selector.css, entity.attribute-name.id</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC66D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Keyword</string>
+			<key>scope</key>
+			<string>keyword.scss,
+keyword.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC8242</string>
 			</dict>
 		</dict>
 	</array>
