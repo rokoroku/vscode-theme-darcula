@@ -14,7 +14,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#242424</string>
+				<string>#2B2B2B</string>
 				<key>foreground</key>
 				<string>#CCCCCC</string>
 				<key>caret</key>
@@ -22,7 +22,7 @@
 				<key>invisibles</key>
 				<string>#474747</string>
 				<key>lineHighlight</key>
-				<string>#242424</string>
+				<string>#323232</string>
 				<key>selection</key>
 				<string>#1B424E</string>
 			</dict>
@@ -40,15 +40,16 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operators</string>
+			<string>Operator Keywords</string>
 			<key>scope</key>
-			<string>meta.keyword.operator,
-meta.keyword.operator.logical,
-meta.keyword.operator.relational,
-meta.keyword.operator.assignment,
-meta.keyword.operator.comparison,
-meta.keyword.operator.ternary,
-meta.keyword.operator.arithmetic</string>
+			<string>keyword.operator,
+keyword.operator.logical,
+keyword.operator.relational,
+keyword.operator.assignment,
+keyword.operator.comparison,
+keyword.operator.ternary,
+keyword.operator.arithmetic,
+keyword.operator.spread</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -148,17 +149,6 @@ keyword.type.expression.typeof</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CC8242</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Types</string>
 			<key>scope</key>
 			<string>meta.entity.type,
@@ -175,7 +165,8 @@ meta.entity.name.new.expr.type.parameters</string>
 			<key>name</key>
 			<string>Storage type</string>
 			<key>scope</key>
-			<string>storage.type,
+			<string>storage,
+storage.type,
 storage.modifier,
 storage.arrow</string>
 			<key>settings</key>
@@ -292,20 +283,6 @@ entity.name.tag</string>
 			<dict>
 				<key>foreground</key>
 				<string>#CCCCCC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML&#x2f;XML String</string>
-			<key>scope</key>
-			<string>string.quoted.single.html, string.quoted.double.html,
-string.html,
-string.quoted.single.xml, string.quoted.double.xml,
-string.xml,</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -510,7 +487,7 @@ yaml.string.entity.name</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ignored (Exceptions)</string>
+			<string>Ignored (Exceptions Rules)</string>
 			<key>scope</key>
 			<string>block.support.module,
 block.support.type.module,
@@ -523,7 +500,7 @@ block.support.function.variable</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Regex Storage Character</string>
+			<string>Regex Begin&#x2f;End</string>
 			<key>scope</key>
 			<string>expr.regex.begin.punctuation,
 expr.regex.end.punctuation</string>
@@ -543,16 +520,14 @@ expr.regex.set.punctuation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CC8242</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
-		<dict>
+			<dict>
 			<key>name</key>
-			<string>Regex Operators</string>
+			<string>Regex Or Operator</string>
 			<key>scope</key>
-			<string>expr.regex.and.operator,
-expr.regex.or.operator,
-expr.regex.not.operator,</string>
+			<string>expr.regex.or.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -566,7 +541,8 @@ expr.regex.not.operator,</string>
 			<string>string.template.tag,
 string.template.punctuation.tag,
 string.quoted.punctuation.tag,
-string.quoted.embedded.tag</string>
+string.quoted.embedded.tag,
+string.quoted.double.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -691,6 +667,19 @@ keyword.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#CC8242</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Triple-slash Directive Tag</string>
+			<key>scope</key>
+			<string>triple-slash.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 	</array>

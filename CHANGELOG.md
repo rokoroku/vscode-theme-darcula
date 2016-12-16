@@ -1,3 +1,11 @@
+## v1.0.8
+- Add icon for vscode extension
+- Add triple-slash directive colorization
+- Add regex capture group colorization
+- Fix wrong operator colorization on file scoped code
+- Change XML/HTML string color to match other string
+- Change line highlight color & background color to match the original theme (fixes #2) 
+
 ## v1.0.7
 - Improve CSS/SCSS colorization
 
