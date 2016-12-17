@@ -1,3 +1,7 @@
+## v1.0.9
+- Revert background color to the default (fixes #3)
+- Change the line highlight color according to the background color change
+
 ## v1.0.8
 - Add icon for vscode extension
 - Add triple-slash directive colorization

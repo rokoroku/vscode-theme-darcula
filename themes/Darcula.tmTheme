@@ -13,18 +13,10 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#2B2B2B</string>
-				<key>foreground</key>
-				<string>#CCCCCC</string>
-				<key>caret</key>
-				<string>#7A9EC2</string>
-				<key>invisibles</key>
-				<string>#474747</string>
 				<key>lineHighlight</key>
-				<string>#323232</string>
+				<string>#2C2C2C</string>
 				<key>selection</key>
-				<string>#1B424E</string>
+				<string>#1A414D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +55,8 @@ keyword.operator.spread</string>
 			<string>string,
 string.character.escape,
 string.template.quoted,
-string.template.quoted.punctuation, string.template.quoted.punctuation.single,
+string.template.quoted.punctuation,
+string.template.quoted.punctuation.single,
 string.template.quoted.punctuation.double,
 string.type.declaration.annotation,
 string.template.quoted.punctuation.tag,</string>
