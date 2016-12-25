@@ -1,3 +1,6 @@
+## v1.0.10
+- Add missing support for .tsx files
+
 ## v1.0.9
 - Revert background color to the default (fixes #3)
 - Change the line highlight color according to the background color change

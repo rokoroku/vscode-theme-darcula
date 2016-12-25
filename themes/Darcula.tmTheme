@@ -187,8 +187,7 @@ meta.entity.new.name.expr.type</string>
 			<key>name</key>
 			<string>Function</string>
 			<key>scope</key>
-			<string>function.support,
-entity.name.function</string>
+			<string>function.support, entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -199,7 +198,7 @@ entity.name.function</string>
 			<key>name</key>
 			<string>Function Types</string>
 			<key>scope</key>
-			<string>annotation.meta.ts</string>
+			<string>annotation.meta.ts, annotation.meta.tsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -210,8 +209,7 @@ entity.name.function</string>
 			<key>name</key>
 			<string>Function Argument</string>
 			<key>scope</key>
-			<string>variable.parameter,
-operator.rest.parameters</string>
+			<string>variable.parameter, operator.rest.parameters</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -224,7 +222,8 @@ operator.rest.parameters</string>
 			<key>scope</key>
 			<string>variable.property,
 variable.constant,
-variable.other.property, variable.other.constant,
+variable.other.property, 
+variable.other.constant,
 block.support.variable.property,
 block.support.function.variable.property</string>
 			<key>settings</key>
@@ -259,7 +258,9 @@ block.support.function.variable.property</string>
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, 
+			<string>punctuation.definition.tag.html, 
+punctuation.definition.tag.begin, 
+punctuation.definition.tag.end, 
 entity.name.tag</string>
 			<key>settings</key>
 			<dict>
@@ -306,10 +307,13 @@ object.objectliteral.property.variable</string>
 			<string>TypeScript Type Casting</string>
 			<key>scope</key>
 			<string>ts.cast.expr,
-type-object,
-ts.meta.entity.class.method.new.expr.cast,
-ts.meta.entity.type.name.new.expr.cast,
-ts.meta.entity.type.name.var-single-variable.annotation</string>
+			ts.meta.entity.class.method.new.expr.cast,
+			ts.meta.entity.type.name.new.expr.cast,
+			ts.meta.entity.type.name.var-single-variable.annotation,
+			tsx.cast.expr,
+			tsx.meta.entity.class.method.new.expr.cast,
+			tsx.meta.entity.type.name.new.expr.cast,
+			tsx.meta.entity.type.name.var-single-variable.annotation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -321,9 +325,13 @@ ts.meta.entity.type.name.var-single-variable.annotation</string>
 			<string>TypeScript Type Declaration</string>
 			<key>scope</key>
 			<string>ts.meta.type.support,
-ts.meta.type.entity.name,
-type-declaration,
-enum-declaration</string>
+			ts.meta.type.entity.name,
+			ts.meta.class.inherited-class,
+			tsx.meta.type.support,
+			tsx.meta.type.entity.name,
+			tsx.meta.class.inherited-class,
+			type-declaration,
+			enum-declaration</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -404,7 +412,8 @@ scss.token.punctuation.separator</string>
 			<key>name</key>
 			<string>Typescript Namespace</string>
 			<key>scope</key>
-			<string>meta.entity.name.namespace.ts</string>
+			<string>ts.meta.entity.name.namespace,
+			tsx.meta.entity.name.namespace</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
