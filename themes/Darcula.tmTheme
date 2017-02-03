@@ -13,6 +13,10 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#242424</string>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
 				<key>lineHighlight</key>
 				<string>#2C2C2C</string>
 				<key>selection</key>
@@ -34,14 +38,15 @@
 			<key>name</key>
 			<string>Operator Keywords</string>
 			<key>scope</key>
-			<string>keyword.operator,
-keyword.operator.logical,
-keyword.operator.relational,
-keyword.operator.assignment,
-keyword.operator.comparison,
-keyword.operator.ternary,
-keyword.operator.arithmetic,
-keyword.operator.spread</string>
+			<string>
+				keyword.operator,
+				keyword.operator.logical,
+				keyword.operator.relational,
+				keyword.operator.assignment,
+				keyword.operator.comparison,
+				keyword.operator.ternary,
+				keyword.operator.arithmetic,
+				keyword.operator.spread</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -52,14 +57,15 @@ keyword.operator.spread</string>
 			<key>name</key>
 			<string>Strings</string>
 			<key>scope</key>
-			<string>string,
+			<string>
+			string,
 string.character.escape,
 string.template.quoted,
 string.template.quoted.punctuation,
 string.template.quoted.punctuation.single,
 string.template.quoted.punctuation.double,
 string.type.declaration.annotation,
-string.template.quoted.punctuation.tag,</string>
+string.template.quoted.punctuation.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -103,8 +109,7 @@ string.template.quoted.punctuation.tag,</string>
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language,
-variable.language</string>
+			<string>constant.language,variable.language</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -131,9 +136,7 @@ keyword.operator.new,
 keyword.operator.delete,
 keyword.operator.static,
 keyword.operator.this,
-keyword.expression.typeof,
-keyword.expression.instanceof,
-keyword.type.expression.typeof</string>
+keyword.operator.expression</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -142,12 +145,9 @@ keyword.type.expression.typeof</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Types</string>
+			<string>Types, Class Types</string>
 			<key>scope</key>
-			<string>meta.entity.type,
-meta.entity.name.type,
-meta.entity.name.new.type.parameters,
-meta.entity.name.new.expr.type.parameters</string>
+			<string>entity.name.type, meta.type.annotation, meta.type.parameters</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -173,10 +173,11 @@ storage.arrow</string>
 			<string>Class constructor</string>
 			<key>scope</key>
 			<string>class.instance.constructor,
-meta.entity.new.class.method.expr,
-meta.entity.new.name.expr.function,
-meta.entity.new.name.expr.var,
-meta.entity.new.name.expr.type</string>
+new.class.method.expr,
+new.expr.entity.name.type
+new.expr.function,
+new.expr.var,
+new.expr.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -187,7 +188,7 @@ meta.entity.new.name.expr.type</string>
 			<key>name</key>
 			<string>Function</string>
 			<key>scope</key>
-			<string>function.support, entity.name.function</string>
+			<string>support.function, entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -224,8 +225,9 @@ meta.entity.new.name.expr.type</string>
 variable.constant,
 variable.other.property, 
 variable.other.constant,
-block.support.variable.property,
-block.support.function.variable.property</string>
+variable.other.object.property,
+variable.object.property,
+support.variable.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -283,8 +285,7 @@ entity.name.tag</string>
 			<key>name</key>
 			<string>Object Keys</string>
 			<key>scope</key>
-			<string>key,
-object.objectliteral.property.variable</string>
+			<string>meta.object-literal.key</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -356,7 +357,7 @@ type-fn-type-parameters</string>
 			<key>name</key>
 			<string>Documentation Block</string>
 			<key>scope</key>
-			<string>comment.documentation</string>
+			<string>comment.block.documentation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -378,7 +379,7 @@ type-fn-type-parameters</string>
 			<key>name</key>
 			<string>Import-Export-All (*) Keyword</string>
 			<key>scope</key>
-			<string>token.language.import-export-all</string>
+			<string>constant.language.import-export-all</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -389,8 +390,7 @@ type-fn-type-parameters</string>
 			<key>name</key>
 			<string>Object Key Seperator</string>
 			<key>scope</key>
-			<string>objectliteral.key.separator,
-scss.token.punctuation.separator</string>
+			<string>objectliteral.key.separator, punctuation.separator.key-value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -457,7 +457,7 @@ scss.token.punctuation.separator</string>
 			<key>name</key>
 			<string>Documentation Entity</string>
 			<key>scope</key>
-			<string>documentation.jsdoc.meta.entity.name</string>
+			<string>entity.name.type.instance.jsdoc</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -491,9 +491,14 @@ yaml.string.entity.name</string>
 			<key>name</key>
 			<string>Ignored (Exceptions Rules)</string>
 			<key>scope</key>
-			<string>block.support.module,
-block.support.type.module,
-block.support.function.variable</string>
+			<string>
+				meta.brace.square.ts,
+				block.support.module,
+				block.support.type.module,
+				block.support.function.variable,
+				punctuation.definition.typeparameters.begin,
+				punctuation.definition.typeparameters.end
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -502,10 +507,11 @@ block.support.function.variable</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Regex Begin&#x2f;End</string>
+			<string>Regex</string>
 			<key>scope</key>
-			<string>expr.regex.begin.punctuation,
-expr.regex.end.punctuation</string>
+			<string>
+				string.regexp
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -516,16 +522,31 @@ expr.regex.end.punctuation</string>
 			<key>name</key>
 			<string>Regex Group&#x2f;Set</string>
 			<key>scope</key>
-			<string>expr.regex.capture.punctuation,
-expr.regex.group.punctuation,
-expr.regex.set.punctuation</string>
+			<string>
+				punctuation.definition.group.regexp,
+				punctuation.definition.character-class.regexp
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#FFC66D</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Character Class</string>
+			<key>scope</key>
+			<string>
+				constant.other.character-class.regexp, 
+				constant.character.escape.ts
+			</string>
+			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Regex Or Operator</string>
 			<key>scope</key>
@@ -543,7 +564,7 @@ expr.regex.set.punctuation</string>
 			<string>string.template.tag,
 string.template.punctuation.tag,
 string.quoted.punctuation.tag,
-string.quoted.embedded.tag,
+string.quoted.embedded.tag, 
 string.quoted.double.tag</string>
 			<key>settings</key>
 			<dict>
@@ -580,10 +601,12 @@ object-literal.object.member.key.array.brace.square</string>
 			<key>name</key>
 			<string>CSS Property-value</string>
 			<key>scope</key>
-			<string>property-list.property-value,
-property-list.constant,
-scss.keyword.other.unit,
-css.keyword.other.unit</string>
+			<string>
+			property-list.property-value,
+			property-list.constant,
+			scss.keyword.other.unit,
+			css.keyword.other.unit
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -594,20 +617,24 @@ css.keyword.other.unit</string>
 			<key>name</key>
 			<string>CSS Property variable</string>
 			<key>scope</key>
-			<string>property-list.variable,
-scss.set.variable</string>
+			<string>
+			support.type.property-name.variable.css,
+			support.type.property-name.variable.scss
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7A9EC2</string>
+				<string>#9E7BB0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS Property entity</string>
 			<key>scope</key>
-			<string>css.entity.attribute-name,
-scss.entity.attribute-name</string>
+			<string>
+			entity.other.attribute-name.class.css,
+			entity.other.attribute-name.class.scss
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -616,9 +643,9 @@ scss.entity.attribute-name</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Property-value number</string>
+			<string>CSS Property-value</string>
 			<key>scope</key>
-			<string>property-list.property-value.rgb-value</string>
+			<string>property-list.property-value.rgb-value, keyword.other.unit.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -638,6 +665,17 @@ scss.entity.attribute-name</string>
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS constant variables</string>
+			<key>scope</key>
+			<string>support.constant.property-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A5C261</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS Tag</string>
 			<key>scope</key>
 			<string>css.entity.name.tag,
@@ -652,7 +690,7 @@ scss.entity.name.tag</string>
 			<key>name</key>
 			<string>CSS ID, Selector</string>
 			<key>scope</key>
-			<string>meta.selector.css, entity.attribute-name.id</string>
+			<string>meta.selector.css, entity.attribute-name.id, entity.other.attribute-name.pseudo-class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -663,8 +701,9 @@ scss.entity.name.tag</string>
 			<key>name</key>
 			<string>CSS Keyword</string>
 			<key>scope</key>
-			<string>keyword.scss,
-keyword.css</string>
+			<string>
+			keyword.scss,
+			keyword.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

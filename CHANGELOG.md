@@ -1,3 +1,7 @@
+## v1.0.11
+- Fix broken rules since VSCode v1.9
+- *broken*: `new Class()` colorization will be broken until typescript grammar update.
+
 ## v1.0.10
 - Add missing support for .tsx files
 
