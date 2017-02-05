@@ -76,7 +76,10 @@ string.template.quoted.punctuation.tag</string>
 			<key>name</key>
 			<string>String Interpolation Begin and End</string>
 			<key>scope</key>
-			<string>begin.expression.string, end.expression.string</string>
+			<string>
+			punctuation.definition.template-expression.begin,
+			punctuation.definition.template-expression.end
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -87,7 +90,10 @@ string.template.quoted.punctuation.tag</string>
 			<key>name</key>
 			<string>String Interpolation Body</string>
 			<key>scope</key>
-			<string>expression.string</string>
+			<string>
+			expression.string,
+			meta.template.expression
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -147,7 +153,13 @@ keyword.operator.expression</string>
 			<key>name</key>
 			<string>Types, Class Types</string>
 			<key>scope</key>
-			<string>entity.name.type, meta.type.annotation, meta.type.parameters</string>
+			<string>
+				entity.name.type,
+				meta.return.type,
+				meta.type.annotation,
+				meta.type.parameters,
+				support.type.primitive
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -172,12 +184,10 @@ storage.arrow</string>
 			<key>name</key>
 			<string>Class constructor</string>
 			<key>scope</key>
-			<string>class.instance.constructor,
-new.class.method.expr,
-new.expr.entity.name.type
-new.expr.function,
-new.expr.var,
-new.expr.type</string>
+			<string>
+			class.instance.constructor,
+			new.expr entity.name.type
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -435,7 +445,7 @@ type-fn-type-parameters</string>
 			<key>name</key>
 			<string>Class Name</string>
 			<key>scope</key>
-			<string>type.entity.name.class</string>
+			<string>entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -446,7 +456,7 @@ type-fn-type-parameters</string>
 			<key>name</key>
 			<string>Class Inheritances</string>
 			<key>scope</key>
-			<string>type.entity.class.other.inherited-class</string>
+			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

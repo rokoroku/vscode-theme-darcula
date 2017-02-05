@@ -1,6 +1,10 @@
+## v1.0.12
+- Fix broken `new Class()` colorization
+- Fix broken return type parameters colorization
+- Fix broken string template syntax colorization
+
 ## v1.0.11
 - Fix broken rules since VSCode v1.9
-- *broken*: `new Class()` colorization will be broken until typescript grammar update.
 
 ## v1.0.10
 - Add missing support for .tsx files
