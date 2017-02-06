@@ -1,15 +1,25 @@
 # Darcula
+
+[![Version](http://vsmarketplacebadge.apphb.com/version/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
+
 A theme extension for [Visual Studio Code](https://code.visualstudio.com) based on **Darcula** theme from [Jetbrains](https://www.jetbrains.com) IDEs.
 
-This extension can be found on the [VSCode Markeplace](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
+---
 
-- Mainly focused on JS (~ES7) & TS syntax
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md)
+
+## Feature
+
+- Mainly focused on JSX & TSX syntax
 
 - Made with [TmTheme-Editor](http://tmtheme-editor.herokuapp.com).
 
 
+## Screenshot
 
-### Screenshot
 ![Screenshot](https://github.com/rokoroku/vscode-theme-darcula/raw/master/screenshot.png)
 
 **Enjoy!**
