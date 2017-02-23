@@ -1,7 +1,7 @@
 # Darcula
 
-[![Version](http://vsmarketplacebadge.apphb.com/version/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
+[![Version](http://vsmarketplacebadge.apphb.com/version/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
 
 A theme extension for [Visual Studio Code](https://code.visualstudio.com) based on **Darcula** theme from [Jetbrains](https://www.jetbrains.com) IDEs.
 
