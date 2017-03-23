@@ -598,9 +598,11 @@ tag.punctuation.end.arrow.parameters.embedded</string>
 			<key>name</key>
 			<string>Object-literal key class</string>
 			<key>scope</key>
-			<string>object-literal.object.member.key.field.other,
-object-literal.object.member.key.accessor,
-object-literal.object.member.key.array.brace.square</string>
+			<string>
+				object-literal.object.member.key.field.other,
+				object-literal.object.member.key.accessor,
+				object-literal.object.member.key.array.brace.square
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -612,10 +614,8 @@ object-literal.object.member.key.array.brace.square</string>
 			<string>CSS Property-value</string>
 			<key>scope</key>
 			<string>
-			property-list.property-value,
-			property-list.constant,
-			scss.keyword.other.unit,
-			css.keyword.other.unit
+				property-list.property-value,
+				property-list.constant
 			</string>
 			<key>settings</key>
 			<dict>
@@ -628,13 +628,15 @@ object-literal.object.member.key.array.brace.square</string>
 			<string>CSS Property variable</string>
 			<key>scope</key>
 			<string>
-			support.type.property-name.variable.css,
-			support.type.property-name.variable.scss
+				support.type.property-name.variable.css,
+				support.type.property-name.variable.scss,
+				variable.scss
 			</string>
+			<!--variable.parameter.postcss-->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9E7BB0</string>
+				<string>#7A9EC2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -642,8 +644,10 @@ object-literal.object.member.key.array.brace.square</string>
 			<string>CSS Property entity</string>
 			<key>scope</key>
 			<string>
-			entity.other.attribute-name.class.css,
-			entity.other.attribute-name.class.scss
+				entity.other.attribute-name.class.css,
+				entity.other.attribute-name.class.scss,
+				entity.other.attribute-name.parent-selector-suffix.css,
+				entity.other.attribute-name.parent-selector-suffix.scss
 			</string>
 			<key>settings</key>
 			<dict>
@@ -655,7 +659,11 @@ object-literal.object.member.key.array.brace.square</string>
 			<key>name</key>
 			<string>CSS Property-value</string>
 			<key>scope</key>
-			<string>property-list.property-value.rgb-value, keyword.other.unit.css</string>
+			<string>
+				property-list.property-value.rgb-value, 
+				keyword.other.unit.css,
+				keyword.other.unit.scss
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -677,7 +685,10 @@ object-literal.object.member.key.array.brace.square</string>
 			<key>name</key>
 			<string>CSS constant variables</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css</string>
+			<string>
+				support.constant.property-value.css,
+				support.constant.property-value.scss
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -688,8 +699,10 @@ object-literal.object.member.key.array.brace.square</string>
 			<key>name</key>
 			<string>CSS Tag</string>
 			<key>scope</key>
-			<string>css.entity.name.tag,
-scss.entity.name.tag</string>
+			<string>
+				css.entity.name.tag,
+				scss.entity.name.tag
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -700,7 +713,12 @@ scss.entity.name.tag</string>
 			<key>name</key>
 			<string>CSS ID, Selector</string>
 			<key>scope</key>
-			<string>meta.selector.css, entity.attribute-name.id, entity.other.attribute-name.pseudo-class.css</string>
+			<string>
+				meta.selector.css, 
+				entity.attribute-name.id, 
+				entity.other.attribute-name.pseudo-class.css,
+				entity.other.attribute-name.pseudo-element.css
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -712,8 +730,9 @@ scss.entity.name.tag</string>
 			<string>CSS Keyword</string>
 			<key>scope</key>
 			<string>
-			keyword.scss,
-			keyword.css</string>
+				keyword.scss,
+				keyword.css
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

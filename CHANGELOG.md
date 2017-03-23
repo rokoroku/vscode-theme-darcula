@@ -1,3 +1,6 @@
+## v1.0.13
+- Fix broken scss rules
+
 ## v1.0.12
 - Fix broken `new Class()` colorization
 - Fix broken return type parameters colorization
