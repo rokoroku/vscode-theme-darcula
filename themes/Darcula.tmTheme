@@ -632,7 +632,6 @@ tag.punctuation.end.arrow.parameters.embedded</string>
 				support.type.property-name.variable.scss,
 				variable.scss
 			</string>
-			<!--variable.parameter.postcss-->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -750,6 +749,18 @@ tag.punctuation.end.arrow.parameters.embedded</string>
 				<string>#CCCCCC</string>
 				<key>fontStyle</key>
 				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>XML, HTML Attributes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.xml
+entity.other.attribute-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9E7BB0</string>
 			</dict>
 		</dict>
 	</array>
