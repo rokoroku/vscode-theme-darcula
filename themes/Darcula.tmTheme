@@ -755,7 +755,7 @@ tag.punctuation.end.arrow.parameters.embedded</string>
 			<key>name</key>
 			<string>XML, HTML Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.xml
+			<string>entity.other.attribute-name.xml,
 entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
