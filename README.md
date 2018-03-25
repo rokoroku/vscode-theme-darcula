@@ -1,7 +1,7 @@
 # Darcula
 
-[![Version](http://vsmarketplacebadge.apphb.com/version/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
+[![Version](https://vsmarketplacebadge.apphb.com/version/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/rokoroku.vscode-theme-darcula.svg)](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
 
 A theme extension for [Visual Studio Code](https://code.visualstudio.com) based on **Darcula** theme from [Jetbrains](https://www.jetbrains.com) IDEs.
 
@@ -11,13 +11,16 @@ A theme extension for [Visual Studio Code](https://code.visualstudio.com) based 
 
 See [CHANGELOG.md](./CHANGELOG.md)
 
-## Feature
+## Description
 
-- Mainly focused on JSX & TSX syntax
+- Mainly focused on HTML5 / CSS / JS (TS) development
 
-- Made with [TmTheme-Editor](http://tmtheme-editor.herokuapp.com).
+- Note that **this theme is not exactly same with the theme from Jetbrains IDE**. There are few modifications to match look and feel with VS Code
 
+## Customizing
 
+- If you want to customize on top of this theme, use vscode's [color customization](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) feature
+ 
 ## Screenshot
 
 ![Screenshot](https://github.com/rokoroku/vscode-theme-darcula/raw/master/screenshot.png)
