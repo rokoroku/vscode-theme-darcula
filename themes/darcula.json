@@ -2,10 +2,15 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#242424",
-		"editor.foreground": "#cccccc",
+        "editor.foreground": "#cccccc",
 		"editor.selectionBackground": "#1a414d",
         "editor.lineHighlightBackground": "#2c2c2c",
-		"editorActiveLineNumber.foreground": "#cccccc"
+        "editorActiveLineNumber.foreground": "#cccccc",
+        "activityBar.background": "#3c3c3c",
+        "sideBar.border": "#3c3c3c",
+        "sideBar.background": "#242424",
+        "titleBar.border": "#3c3c3c",
+        "titleBar.activeBackground": "#3c3c3c"
 	},
 	"tokenColors": [
 		{
