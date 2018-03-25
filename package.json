@@ -20,7 +20,7 @@
             {
                 "label": "Darcula",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Darcula.tmTheme"
+                "path": "./themes/darcula.json"
             }
         ]
     }
