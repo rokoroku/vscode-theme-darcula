@@ -4,7 +4,8 @@
 		"editor.background": "#242424",
 		"editor.foreground": "#cccccc",
 		"editor.selectionBackground": "#1a414d",
-		"editor.lineHighlightBackground": "#2c2c2c"
+        "editor.lineHighlightBackground": "#2c2c2c",
+		"editorActiveLineNumber.foreground": "#cccccc"
 	},
 	"tokenColors": [
 		{
