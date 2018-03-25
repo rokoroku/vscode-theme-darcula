@@ -14,7 +14,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "icon.svg",
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
