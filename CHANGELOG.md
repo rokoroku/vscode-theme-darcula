@@ -1,3 +1,7 @@
+## v1.1.0
+- Migrate to vscode theme json format
+- Update UI styles
+
 ## v1.0.13
 - Fix broken scss rules
 

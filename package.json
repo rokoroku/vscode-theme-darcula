@@ -2,7 +2,7 @@
     "name": "vscode-theme-darcula",
     "displayName": "Darcula Theme",
     "description": "A theme extension for VS Code based on Darcula theme from Jetbrains IDEs",
-    "version": "1.0.13",
+    "version": "1.1.0",
     "publisher": "rokoroku",
     "repository": {
         "type": "git",
