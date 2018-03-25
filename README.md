@@ -19,7 +19,8 @@ See [CHANGELOG.md](./CHANGELOG.md)
 
 ## Customizing
 
-- If you want to customize on top of this theme, use vscode's [color customization](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) feature
+- If you want to customize on top of this theme, use vscode's [color customization](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) feature.  
+  (Related Issue: [#9](https://github.com/rokoroku/vscode-theme-darcula/issues/9))
  
 ## Screenshot
 
