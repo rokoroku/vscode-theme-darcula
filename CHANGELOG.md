@@ -1,3 +1,6 @@
+## v1.1.1
+- Fix const variable coloring (#11)
+
 ## v1.1.0
 - Migrate to vscode theme json format
 - Update UI styles
