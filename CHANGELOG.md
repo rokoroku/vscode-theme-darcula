@@ -1,3 +1,6 @@
+## v1.1.3
+- Add python logical operator rule (#10)
+
 ## v1.1.1
 - Fix const variable coloring (#11)
 
