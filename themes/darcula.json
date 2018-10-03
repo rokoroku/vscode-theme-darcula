@@ -422,6 +422,13 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+		{
+			"name": "Python operators",
+			"scope": "keyword.operator.logical.python",
+			"settings": {
+				"foreground": "#CC8242"
+			}
 		}
 	]
 }
