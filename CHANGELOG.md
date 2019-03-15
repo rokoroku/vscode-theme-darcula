@@ -1,3 +1,6 @@
+## v1.2.0
+- Update UI styles (workbench, editor, ...)
+
 ## v1.1.3
 - Add python logical operator rule (#10)
 
