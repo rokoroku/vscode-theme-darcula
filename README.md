@@ -19,7 +19,7 @@ See [CHANGELOG.md](./CHANGELOG.md)
 
 ## Post-installation
 
-- When installation completes, select **Dracula** as your color theme (File → Preferences → Color Theme → **Dracula**)
+- When installation completes, select **Darcula** as your color theme (Preferences → Workbench: Color Theme → **Darcula**)
 
 ## Customizing
 
