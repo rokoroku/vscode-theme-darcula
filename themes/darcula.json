@@ -90,7 +90,7 @@
     },
     {
       "name": "Types, Class Types",
-      "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive,support.class",
+      "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive",
       "settings": {
         "foreground": "#7A9EC2"
       }
@@ -438,6 +438,13 @@
     {
       "name": "Python operators",
       "scope": "keyword.operator.logical.python",
+      "settings": {
+        "foreground": "#CC8242"
+      }
+    },
+    {
+      "name": "Dart class type",
+      "scope": "support.class.dart",
       "settings": {
         "foreground": "#CC8242"
       }
