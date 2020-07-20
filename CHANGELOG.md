@@ -1,3 +1,7 @@
+## v1.2.1
+- Add php variable rule (#15) 
+- Add dart class rule (#20)
+
 ## v1.2.0
 - Update UI styles (workbench, editor, ...)
 
