@@ -448,6 +448,27 @@
       "settings": {
         "foreground": "#CC8242"
       }
+    },
+    {
+      "name": "PHP variables",
+      "scope": ["variable.language.php", "variable.other.php"],
+      "settings": {
+        "foreground": "#9E7BB0"
+      }
+    },
+    {
+      "name": "PHP variables",
+      "scope": ["variable.other.property.php"],
+      "settings": {
+        "foreground": "#CC8242"
+      }
+    },
+    {
+      "name": "PHP variables",
+      "scope": ["support.variable.property.php"],
+      "settings": {
+        "foreground": "#FFC66D"
+      }
     }
   ]
 }
