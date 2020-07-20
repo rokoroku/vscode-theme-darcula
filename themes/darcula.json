@@ -90,7 +90,7 @@
     },
     {
       "name": "Types, Class Types",
-      "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive",
+      "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive,support.class",
       "settings": {
         "foreground": "#7A9EC2"
       }
