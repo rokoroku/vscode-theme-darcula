@@ -469,6 +469,13 @@
       "settings": {
         "foreground": "#FFC66D"
       }
+    },
+    {
+      "name": "Perl variables",
+      "scope": ["variable.other.readwrite.global.perl"],
+      "settings": {
+        "foreground": "#9E7BB0"
+      }
     }
   ]
 }
