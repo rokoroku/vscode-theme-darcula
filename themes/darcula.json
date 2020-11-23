@@ -132,7 +132,7 @@
     },
     {
       "name": "Variable, Property",
-      "scope": "variable.property,variable.other.property,variable.other.object.property,variable.object.property,support.variable.property",
+      "scope": "variable.property,variable.other.property,variable.other.object.property,variable.other.readwrite,variable.object.property,support.variable.property",
       "settings": {
         "foreground": "#9E7BB0"
       }
