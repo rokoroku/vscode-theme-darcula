@@ -476,6 +476,27 @@
       "settings": {
         "foreground": "#FFC66D"
       }
+    },
+    {
+      "name": "diff: inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#447152"
+      }
+    },
+    {
+      "name": "diff: deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#656e76"
+      }
+    },
+    {
+      "name": "diff: changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#43698d"
+      }
     }
   ]
 }
